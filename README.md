@@ -39,7 +39,7 @@ deb [signed-by=/usr/share/keyrings/thehive-project-archive-keyring.gpg] https://
 
 `sudo systemctl start --now cortex`
 
-DOCKER INSTALL
+# DOCKER INSTALL
 
 ## Install Packages
 
