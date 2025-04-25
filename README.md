@@ -2,7 +2,7 @@
 
 `wget -qO- https://raw.githubusercontent.com/TheHive-Project/TheHive/master/PGP-PUBLIC-KEY | sudo gpg --dearmor -o /usr/share/keyrings/thehive-project-archive-keyring.gpg"`
 
-#Make A New file called /etc/apt/sources.list.d/thehive-project.list and put this in there.
+##Make A New file called /etc/apt/sources.list.d/thehive-project.list and put this in there.
 
 `# /etc/apt/sources.list.d/thehive-project.list
 deb [signed-by=/usr/share/keyrings/thehive-project-archive-keyring.gpg] https://deb.thehive-project.org release main1`
