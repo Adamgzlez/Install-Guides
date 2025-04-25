@@ -1,5 +1,7 @@
 # Install-Guides
 
+Add the Packages
+
 `wget -qO- https://raw.githubusercontent.com/TheHive-Project/TheHive/master/PGP-PUBLIC-KEY | sudo gpg --dearmor -o /usr/share/keyrings/thehive-project-archive-keyring.gpg"`
 
 ##Make A New file called /etc/apt/sources.list.d/thehive-project.list and put this in there.
@@ -100,6 +102,7 @@ Install Key if it didn't work
 `sudo systemctl status cortex`
 
 #Start Elasticsearch
+
 `sudo systemctl enable elasticsearch`
 
 `sudo systemctl start elasticsearch`
